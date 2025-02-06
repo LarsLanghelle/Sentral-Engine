@@ -9,6 +9,7 @@ namespace SentralEditor.GameProject
     public class ProjectTemplate
     {
         public string ProjectType { get; set; }
+        public string ProjectFile { get; set; }
     }
     class NewProject : ViewModelBase
     {
