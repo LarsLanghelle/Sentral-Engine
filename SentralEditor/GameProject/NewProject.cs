@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace SentralEditor.GameProject
 {
+    public class ProjectTemplate
+    {
+        public string ProjectType { get; set; }
+    }
     class NewProject : ViewModelBase
     {
         private string name = "NewProject";
